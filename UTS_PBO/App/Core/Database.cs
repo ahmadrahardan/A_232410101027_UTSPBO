@@ -11,9 +11,9 @@ namespace UTS_PBO.App.Core
     internal class Database
     {
         private static readonly string DB_HOST = "localhost";
-        private static readonly string DB_DATABASE = "pbo_mvc";
+        private static readonly string DB_DATABASE = "UTSPBO";
         private static readonly string DB_USERNAME = "postgres";
-        private static readonly string DB_PASSWORD = "chiel188";
+        private static readonly string DB_PASSWORD = "310305";
         private static readonly string DB_PORT = "5432";
 
         private static NpgsqlConnection connection;
